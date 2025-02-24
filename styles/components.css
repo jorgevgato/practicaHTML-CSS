@@ -1,0 +1,17 @@
+.btn {
+    color: var(--main-text-color);
+    padding: 0.5rem; 
+    border: 1px solid var(--main-brand-color-light);
+    border-radius: 5px;
+    transition: all 0.2s linear;
+}
+
+@media screen and (hover: hover) {
+    .btn {
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: var(--main-brand-color-light);
+        font-size: large;
+    }
+}
