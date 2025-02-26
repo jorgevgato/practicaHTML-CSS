@@ -6,12 +6,19 @@
     transition: all 0.2s linear;
 }
 
+.material-symbols-outlined {
+    color: var(--main-text-color);
+}
+
 @media screen and (hover: hover) {
-    .btn {
+    .btn, .material-symbols-outlined {
         cursor: pointer;
     }
     .btn:hover {
         background-color: var(--main-brand-color-light);
         font-size: large;
+    }
+    .material-symbols-outlined:hover {
+        color: var(--main-brand-color-dark);
     }
 }
