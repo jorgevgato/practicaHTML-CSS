@@ -84,7 +84,54 @@
                 </div>
             </div>
         </a>
-
+        <section class="formulario">
+            <h3>Contacto</h3>
+            <form action="./registro" method="post" novalidate>
+                <div class="form_element">
+                    <label for="nombre">Nombre</label>
+                    <input required type="nombre" name="nombre" id="nombre">
+                </div>
+                <div class="form_element">
+                    <label for="apellido">Apellido</label>
+                    <input required type="apellido" name="apellido" id="apellido">
+                </div>
+                <div class="form_element">
+                    <label for="telefono">Teléfono</label>
+                    <input required type="telefono" name="telefono" id="telefono">
+                </div>
+                <div class="form_element">
+                    <label for="gituser">Usuario Github</label>
+                    <input type="user" name="user" id="user" placeholder="Formato: @username">
+                </div>
+                <fieldset>
+                    <legend>¿Cómo conociste mi obra?</legend>
+                    <label for="familia">Familia o amigos</label>
+                    <input required type="radio" name="fav" id="familia" value="familia" checked>
+                    <label for="compañeros">Compañeros</label>
+                    <input required type="radio" name="fav" id="compañeros" value="compañeros">
+                    <label for="azar">Azar</label>
+                    <input required type="radio" name="fav" id="azar" value="azar">
+                    <label for="arte">Arte relacionado</label>
+                    <input required type="radio" name="fav" id="arte" value="arte">
+                </fieldset>
+                <div class="form_element">
+                    <label for="info">Más información</label>
+                    <textarea name="info" id="info" rows="5" placeholder="Háblanos de ti" maxlength="180"></textarea>
+                </div>
+                <div class="form_element">
+                    <label for="newsletter">Quiero acceso a la newsletter</label>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                </div>
+                <div>
+                    <button class="btn" type="submit">
+                        Guardar
+                    </button>
+                    <button class="btn" type="reset">
+                        Borrar
+                    </button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer class="footer", id="mas">
         <section class="icons">
