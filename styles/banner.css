@@ -44,3 +44,9 @@
         top: 85%;
     }
 }
+
+@media screen and (height < 395px) {
+    .content {
+        top: 75%;
+    }
+}

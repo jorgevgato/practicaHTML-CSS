@@ -30,7 +30,7 @@
                     <a class="btn hide2" href="#obra">Obra</a>
                 </li>
                 <li>
-                    <a class="btn hide" href="./index.html">Vida</a>
+                    <a class="btn hide" href="#form">Contacto</a>
                 </li>
                 <li><a class="btn hide" href="#mas">Más</a>
                 </li>
@@ -43,7 +43,9 @@
             <p>Soy Joaquín Sorolla, nacido en Valencia el 27 de febrero de 1863. Desde temprana edad, el arte me llamó con fuerza, quizás como una forma de iluminar mi vida tras quedar huérfano a los dos años. Criado por mis tíos, encontré en el dibujo y la pintura mi verdadera vocación. Con esfuerzo y dedicación, estudié en la Escuela de Bellas Artes de San Carlos en Valencia y más tarde viajé por Europa para perfeccionar mi técnica, visitando París, Roma y otros centros artísticos donde absorbí las influencias del impresionismo y el naturalismo.</p>
             <p>Mi obra se caracteriza por la luz y el color. Desde mis primeros trabajos, me sentí fascinado por la manera en que el sol transforma la realidad. En 1900, con mi pintura <em>Triste herencia</em>, obtuve reconocimiento internacional y, a partir de entonces, consolidé mi estilo personal: pinceladas rápidas, colores vibrantes y una búsqueda incansable de la luz mediterránea. Pinté escenas de playa, retratos y paisajes que capturaban la vitalidad de España. Entre mis obras más conocidas destacan <em>Paseo a orillas del mar</em> y <em>Niños en la playa</em>, donde la luminosidad y el movimiento se convierten en protagonistas.</p>
         </article>
+
         <h3>Estilos</h3>
+        
         <section class="progressbars">
             <div class="bar">
                 <div class="progress lum">
@@ -76,16 +78,21 @@
                 </div>
             </div>
         </section>
-        <a href="https://www.museodelprado.es/aprende/enciclopedia/voz/sorolla-y-bastida-joaquin/cd8aad63-b518-4278-914c-2aa033df0f24" target="_blank" rel="noopener noreferrer">
-            <div class="banner", id="obra">
-                <div class="image"></div>
-                <div class="content">
-                    <p class="galeria"><em>Visita mi galería</em></p>
-                </div>
+
+        <h3 id="obra">Galería</h3>
+
+        <div class="banner">
+                <a href="https://www.museodelprado.es/aprende/enciclopedia/voz/sorolla-y-bastida-joaquin/cd8aad63-b518-4278-914c-2aa033df0f24" target="_blank" rel="noopener noreferrer">
+                    <div class="image"></div>
+                    <div class="content">
+                        <p class="galeria"><em>Visita mi galería</em></p>
+                    </div>
+                </a>
             </div>
-        </a>
+        
+        <h3 id="form">Contacto</h3>
+
         <section class="formulario">
-            <h3>Contacto</h3>
             <form action="./registro" method="post" novalidate>
                 <div class="form_element">
                     <label for="nombre">Nombre</label>
@@ -105,21 +112,21 @@
                 </div>
                 <fieldset>
                     <legend>¿Cómo conociste mi obra?</legend>
-                    <label for="familia">Familia o amigos</label>
                     <input required type="radio" name="fav" id="familia" value="familia" checked>
-                    <label for="compañeros">Compañeros</label>
+                    <label for="familia">Familia o amigos</label>
                     <input required type="radio" name="fav" id="compañeros" value="compañeros">
-                    <label for="azar">Azar</label>
+                    <label for="compañeros">Compañeros</label>
                     <input required type="radio" name="fav" id="azar" value="azar">
-                    <label for="arte">Arte relacionado</label>
+                    <label for="azar">Azar</label>
                     <input required type="radio" name="fav" id="arte" value="arte">
+                    <label for="arte">Arte relacionado</label>
                 </fieldset>
                 <div class="form_element">
                     <label for="info">Más información</label>
                     <textarea name="info" id="info" rows="5" placeholder="Háblanos de ti" maxlength="180"></textarea>
                 </div>
-                <div class="form_element">
-                    <label for="newsletter">Quiero acceso a la newsletter</label>
+                <div class="form_element row">
+                    <label for="newsletter">Quiero recibir la newsletter</label>
                     <input type="checkbox" name="newsletter" id="newsletter">
                 </div>
                 <div>
