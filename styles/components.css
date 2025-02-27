@@ -34,7 +34,7 @@
     height: 20px;
     width: 20px;
     background-color: var(--main-brand-color-light);
-    border-radius: 10px;
+    border-radius: 9px;
 }
 
 .lum {animation: lum 1s linear forwards;} 
