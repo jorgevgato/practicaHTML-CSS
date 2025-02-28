@@ -3,7 +3,7 @@
     padding: 0.5rem; 
     border: 1px solid var(--main-brand-color-light);
     border-radius: 5px;
-    transition: all 0.2s linear;
+    transition: all 0.3s linear;
     background-color: white;
 }
 
@@ -132,6 +132,7 @@
 fieldset {
     margin-bottom: 1rem;
     border: 1px solid var(--main-brand-color-dark);
+    border-radius: 5px;
     display: grid;
     grid-template-columns:max-content auto;
     gap: 1rem;
@@ -144,7 +145,7 @@ fieldset {
     }
     .btn:hover {
         background-color: var(--main-brand-color-light);
-        font-size: large;
+        /*font-size: large;*/
     }
     .material-symbols-outlined:hover {
         color: var(--main-brand-color-dark);
@@ -160,9 +161,12 @@ fieldset {
 }
 
 @media screen and (width > 767px) {
-    .formulario {
+    .campos {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+    }
+    textarea {
+        height: 150px;
     }
 }
