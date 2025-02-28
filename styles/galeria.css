@@ -37,3 +37,12 @@ iframe {
     margin: 0 auto;
 }
 
+.textgall {
+    margin-top: 0.5px;
+}
+
+@media screen and (width > 767px) {
+    .obras {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
