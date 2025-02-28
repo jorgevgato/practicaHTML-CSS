@@ -17,9 +17,10 @@
 }
 
 .content {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
     z-index: 1;
-    top: 90%;
+    
 }
 
 .galeria {
@@ -36,17 +37,5 @@
         .image {
             background-image: url(../assets/images/el_baño_del_caballo.jpg)
         }
-    }
-}
-
-@media screen and (height < 600px) {
-    .content {
-        top: 85%;
-    }
-}
-
-@media screen and (height < 395px) {
-    .content {
-        top: 75%;
     }
 }
