@@ -90,7 +90,7 @@
         <h3 id="form">Contacto</h3>
 
         <section class="formulario">
-            <form action="./registro" method="post" novalidate>
+            <form action="./registro" method="post">
                 <div class="campos">
                     <div class="form_element">
                         <label for="nombre">Nombre</label>
@@ -106,7 +106,7 @@
                     </div>
                     <div class="form_element">
                         <label for="artuser">Usuario Arthub</label>
-                        <input type="text" name="artuser" id="artuser" pattern="@\w+" placeholder="Formato: @username">
+                        <input type="text" name="artuser" id="artuser" pattern="^@[^\s]+" placeholder="Formato: @username">
                     </div>
                     <fieldset>
                         <legend>¿Cómo conociste mi obra?</legend>
@@ -136,8 +136,7 @@
                         Borrar
                     </button>
                 </div>
-            </form>
-            
+            </form>       
         </section>
     </main>
     <footer class="footer", id="mas">
