@@ -18,3 +18,5 @@ El proyecto simula que el artista ha abierto una modesta (tremendamente modesta)
     - **Grid** con una pequeña muestra de obras con imagen y título. Todas ellas enlazan a la propia imagen para permitir verlas con detalle.
 
 Las dos páginas se han desarrollado con la perspectiva mobile first, y presentan variaciones significativas al llegar a los 768px de ancho a través de las pertinentes media queries.
+
+La web se ha publicado en GitHub Pages.
